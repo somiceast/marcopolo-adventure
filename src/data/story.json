@@ -1,0 +1,31 @@
+{
+  "venice_start": {
+    "text": "1271年，威尼斯港口。你即将踏上前往东方的旅程。",
+    "options": [
+      {
+        "text": "从君士坦丁堡启程",
+        "next": "constantinople_entry"
+      },
+      {
+        "text": "拜访教皇，索要文书",
+        "next": "papal_mission",
+        "effects": {
+          "has_letter": true
+        }
+      }
+    ]
+  },
+  "constantinople_entry": {
+    "text": "你抵达君士坦丁堡，决定如何继续旅途。",
+    "options": [
+      {
+        "text": "试图拜访拜占庭皇宫",
+        "next": "byzantine_audience"
+      },
+      {
+        "text": "穿越安纳托利亚高原",
+        "next": "anatolia_desert"
+      }
+    ]
+  }
+}
